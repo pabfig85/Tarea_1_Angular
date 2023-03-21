@@ -1,0 +1,33 @@
+$primary-color: #ac200e;
+$secondary-color: #2c0694;
+$margin: 16px;
+
+body,
+html {
+  font-family: 'Raleway', sans-serif;
+  color: var(--secondary-color);
+  line-height: 1.7em;
+  //background-color: var(--main-color);
+  background-color: #ca78bf3d;
+}
+
+.highlight {
+    border-color: $primary-color;
+    color: $secondary-color;
+}
+
+h1 {
+    span {
+        margin: $margin / 2;
+    }
+
+    color: $primary-color;
+}
+
+h4 {
+    span {
+        margin: $margin / 2;
+    }
+
+    color: $secondary-color;
+}
